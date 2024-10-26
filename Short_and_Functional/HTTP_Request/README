@@ -1,0 +1,13 @@
+# Project Title
+
+Script to send an HTTP GET request to a specified website.
+
+## Description
+
+Program reads in a website name and sends a GET request to it. Downloads the response and prints the megabytes dowloaded, time to download and the throughput of the download.
+## Getting Started
+### Executing program
+You must have Python installed.
+    In the terminal 
+    python ./HTTP_Request.py 'link'
+    where link is replaced with the website/webpage to be downloaded. It must be in http(s)://... format
