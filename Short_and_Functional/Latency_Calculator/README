@@ -1,0 +1,16 @@
+# Project Title
+
+Script to calculate statistics of ping request latencies.
+
+## Description
+
+Script to calculate statistics of ping request latencies.
+
+## Getting Started
+
+### Executing program
+
+You must have numpy, matplotlib and python installed. Install numpy and matplotlib by running 'pip install matplotlib numpy' in the terminal
+In the terminal
+python ./Latency_Calc.py 'filename'
+where filename is replaced with the file to be analyzed (you must have the file in the same directory)
