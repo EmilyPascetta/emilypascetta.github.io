@@ -1,0 +1,158 @@
+html {
+  background-color: #7fcdee;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  max-width: 1280px;
+  background-color: #ffffff;
+  /*margin-top: 60px;*/ /* Account for fixed-top nav bar */
+}
+
+
+
+/* header + nav bar */
+
+header {
+  letter-spacing: 0.10em;
+  width: 100%;
+}
+
+header.jumbotron {
+  background: #0E0F3B url('images/small-logo.png') no-repeat 20px 20px;
+  color: #ffffff;
+  margin-bottom: 0;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  height: auto;
+  /* font-family: "Goudy Old Style", "Times New Roman", Times, serif; */
+}
+
+header.jumbotron p {
+  margin: 0;
+  margin-left: 80px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background: #0E0F3B;
+}
+
+.navbar a {
+  color: white; 
+  text-decoration: none; 
+  padding: 1em; 
+}
+
+.navbar a:hover {
+  color: #dddddd;
+}
+
+
+
+/* footer */
+
+footer.jumbotron {
+  background: #0E0F3B;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
+}
+
+footer.jumbotron a:link {
+  color: #9bccf6;
+}
+
+footer.jumbotron a:visited {
+  color: #66aae6;
+}
+
+footer.jumbotron a:hover {
+  color: #fff;
+}
+
+footer.jumbotron a:active {
+  color: #fff;
+}
+
+
+
+/* buttons / links */
+
+.button:active {
+  font-weight: bold;
+} 
+
+.button:hover {
+  /* button will be raised */
+  transform: scale(1.2);
+
+}
+
+.eventbutton {
+  font-size: 13px;
+  margin-left: 174px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  color: #fff;
+  border: 0;
+  background: none;
+  background-color:#E9712D;
+  box-shadow: none;
+}
+
+.eventbutton:hover {
+  /* button will be raised */
+  transform: scale(1.1);
+  font-style: bold;
+}
+
+.a:hover {
+  color: blue;
+}
+
+.a:visited {
+  color: purple;
+}
+
+
+
+/* extra for home page */
+
+.row {
+  margin: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column img {
+  width: 80%;
+}
+
+.layering {
+  position: relative;
+  top: -15px;
+  text-align: center;
+  color: white;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

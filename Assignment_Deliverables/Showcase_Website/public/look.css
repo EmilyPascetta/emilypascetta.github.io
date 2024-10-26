@@ -1,0 +1,132 @@
+
+/* Images */
+
+.headerimage {
+    max-width:max-content;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+
+/* Whitespace */
+
+.space {
+    padding:35px;
+}
+
+.space2 {
+    padding:10px;
+}
+
+.space3 {
+    padding:20px;
+}
+
+.space4 {
+    padding:10px;
+}
+
+/* Event Css */
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 7em;
+    color: #0E0F3B;
+}
+
+.event {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 174px;
+    font-weight: bold;
+    color: #0E0F3B;
+}
+
+.eventinfo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #0E0F3B;
+    padding-left: 11em;
+    padding-right: 11em;
+}
+
+hr {
+    width:50%;
+    padding-left:18em;
+    top: 20px;
+    border: none;
+    height: 2px;
+    background: #0E0F3B;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+
+.eventinfoparagraph {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0E0F3B;
+    padding-left: 11em;
+    padding-right: 11em; 
+    margin-right: 170px;
+}
+
+.eventbutton {
+    font-size: 13px;
+    margin-left: 174px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: #fff;
+    border: 0;
+    background: none;
+    background-color:#E9712D;
+    box-shadow: none;
+}
+
+/* Form CSS */
+
+.formheading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0E0F3B;
+}
+
+.formsubheading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0E0F3B;
+    font-weight: bold;
+    
+}
+
+.formparagraph {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0E0F3B;
+    padding-right: 1em; 
+    padding-top: 0.5em;
+    padding-bottom: 5px;
+    
+}
+
+
+.custombutton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0E0F3B;
+    padding-right: 1em; 
+    padding-top: 0.5em;
+    padding-bottom: 5px;
+}
+
+.formbutton {
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: #fff;
+    border: 0;
+    background: none;
+    background-color:#E9712D;
+    box-shadow: none;
+}
